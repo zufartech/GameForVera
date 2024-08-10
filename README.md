@@ -1,2 +1,2 @@
 # GameForVera
-Game for dear Vera from Zufar &amp; Raduan
+Game for dear Vera from Zufar & Raduan

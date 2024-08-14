@@ -16,7 +16,7 @@ html{
     width: 98vw;
     /* margin-top: 10vh; */
     display: grid;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* grid-template-columns: 30% 40% 30%; */
     grid-template-columns: 60px auto 60px;
     justify-content: space-between;
@@ -28,12 +28,12 @@ html{
 }
 
 textarea{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     size: 16;
-    font-size: 1.1rem; 
+    /* font-size: 1.1rem;  */
     resize: none;
     border: none;
     color: #fff;
@@ -118,7 +118,7 @@ textarea{
     margin-bottom: 6px;
     border: none;
     color: #fff;
-    font-size: 1.1rem;  
+    /* font-size: 1.1rem;   */
 }
 .prob {
     background-color: rgb(5, 5, 5);

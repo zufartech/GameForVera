@@ -5,6 +5,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
+html{
+    background-color: black;
+}
 
 .up-row{
     display: flex;
@@ -67,10 +70,10 @@ textarea{
 .remark {
     background-color: gray;
     width: 50px;
-    height: 50px;
+    height: 35px;
     border-radius: 30px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .remark:hover {
@@ -80,10 +83,10 @@ textarea{
 .dial {
     background-color: gray;
     width: 50px;
-    height: 50px;
+    height: 35px;
     border-radius: 30px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     
 }
 
@@ -95,7 +98,7 @@ textarea{
     margin-left: 1vh;
     margin-right: 1hv;
     width: 70px;
-    height: 40px;
+    height: 35px;
     border-radius: 30px;
     text-align: center;
     /* line-height: 40px; */

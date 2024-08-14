@@ -31,7 +31,7 @@ textarea{
     margin-top: 10px;
     margin-bottom: 10px;
     size: 16;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     resize: none;
     border: none;
     color: #fff;
@@ -121,7 +121,7 @@ textarea{
 .prob {
     background-color: rgb(5, 5, 5);
     border: none;
-    width: 20px;
+    width: 30px;
     height: 1px;
     margin-bottom: 6px;
     

@@ -9,16 +9,10 @@ html{
     background-color: black;
 }
 
-.up-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 
 .container {
-    /* width: 30vw !important; */
 
+    /* width: auto; */
     /* margin-top: 10vh; */
     display: grid;
     box-sizing: border-box;
@@ -39,12 +33,6 @@ textarea{
     resize: none;
 }
 
-.last-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 1vh;
-}
 
 /* 
 .three-columns {
@@ -68,7 +56,7 @@ textarea{
 }
 
 .remark {
-    background-color: gray;
+    background-color: #4f4f4f;
     width: 50px;
     height: 35px;
     border-radius: 30px;
@@ -81,7 +69,7 @@ textarea{
 }
 
 .dial {
-    background-color: gray;
+    background-color: #4f4f4f;
     width: 50px;
     height: 35px;
     border-radius: 30px;
@@ -94,21 +82,21 @@ textarea{
     opacity: 0.7;
 }
 
-.upper{
-    margin-left: 1vh;
-    margin-right: 1hv;
-    width: 70px;
-    height: 35px;
-    border-radius: 30px;
-    text-align: center;
-    /* line-height: 40px; */
-}
-
 .numsL {
     display: flex;
     flex-direction: column;
     /* width: 50px; */
     align-items: flex-end;
    
+    
+}
+
+.menu {
+    background-color: #d8d7d7;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 6px;
     
 }

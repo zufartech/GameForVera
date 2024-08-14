@@ -18,7 +18,7 @@ html{
     display: grid;
     /* box-sizing: border-box; */
     /* grid-template-columns: 30% 40% 30%; */
-    grid-template-columns: 60px auto 60px;
+    grid-template-columns: 50px auto 50px;
     justify-content: space-between;
     border: none;
 }
@@ -65,7 +65,7 @@ textarea{
 
 .remark {
     background-color: #333;
-    width: 60px;
+    width: 50px;
     height: 35px;
     border-radius: 30px;
     text-align: center;
@@ -85,7 +85,7 @@ textarea{
 
 .dial {
     background-color: #333;
-    width: 60px;
+    width: 50px;
     height: 35px;
     border-radius: 30px;
     text-align: center;
@@ -111,7 +111,7 @@ textarea{
 
 .menu {
     background-color: #7e7d7d;
-    width: 60px;
+    width: 50px;
     height: 35px;
     border-radius: 10px;
     text-align: center;
@@ -123,7 +123,7 @@ textarea{
 .prob {
     background-color: rgb(5, 5, 5);
     border: none;
-    width: 50px;
+    width: 10px;
     height: 1px;
     margin-bottom: 6px;
     

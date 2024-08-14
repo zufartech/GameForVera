@@ -13,12 +13,12 @@ html{
 
 .container {
 
-    width: 95vw;
+    width: 98vw;
     /* margin-top: 10vh; */
     display: grid;
     box-sizing: border-box;
-    /* grid-template-columns: 20% 60% 20%; */
-    grid-template-columns: 50px auto 50px;
+    /* grid-template-columns: 30% 40% 30%; */
+    grid-template-columns: 60px auto 60px;
     justify-content: space-between;
     border: none;
 }
@@ -110,14 +110,15 @@ textarea{
 }
 
 .menu {
-    background-color: #8d8c8c;
+    background-color: #7e7d7d;
     width: 60px;
     height: 35px;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 6px;
     border: none;
-    color: #fff;    
+    color: #fff;
+    font-size: 1.1rem;  
 }
 .prob {
     background-color: rgb(5, 5, 5);

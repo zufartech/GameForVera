@@ -34,7 +34,7 @@ textarea{
     font-size: 1.1rem;
     resize: none;
     border: none;
-    color: #d0d0d0;
+    color: #eeeeee;
     background-color: rgb(23, 27, 28);
     
 }
@@ -58,7 +58,7 @@ textarea{
 
 #playground {
     border-style: solid;
-    border-color: #d0d0d0;
+    border-color: #eeeeee;
     
 }
 
@@ -70,7 +70,7 @@ textarea{
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: #d0d0d0;
+    color: #eeeeee;
     font-size: 1.1rem;
 }
 
@@ -90,7 +90,7 @@ textarea{
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: #d0d0d0;
+    color: #eeeeee;
     font-size: 1.1rem; 
     
 }

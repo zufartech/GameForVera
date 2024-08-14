@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-    width: 40vw !important;
+    /* width: 30vw !important; */
+
     /* margin-top: 10vh; */
     display: grid;
     box-sizing: border-box;

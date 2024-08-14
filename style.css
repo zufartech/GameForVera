@@ -35,7 +35,7 @@ textarea{
     resize: none;
     border: none;
     color: #e1e1e1;
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(23, 27, 28);
     
 }
 
@@ -58,6 +58,7 @@ textarea{
 
 #playground {
     border-style: solid;
+    border: none;
     
 }
 

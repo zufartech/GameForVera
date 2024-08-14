@@ -70,7 +70,7 @@ textarea{
     margin-bottom: 8px;
     border: none;
     color: #fff;
-    font-size: 1.2rem; 
+    /*font-size: 1.2rem;*/
 }
 
 .remark:hover {
@@ -113,16 +113,8 @@ textarea{
     height: 40px;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border: none;
     color: #fff;
     /* font-size: 1.1rem;   */
-}
-.prob {
-    background-color: rgb(5, 5, 5);
-    border: none;
-    width: 20px;
-    height: 1px;
-    margin-bottom: 6px;
-    
 }

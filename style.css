@@ -1,58 +1,107 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background: black;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.calculator {
-  width: 470px;
-  height: auto;
-  background-color: black;
-  margin: 150px auto;
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+.up-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.display {
-  color: white;
-  font-size: 70px;
-  text-align: end;
-  padding-top: 20px;
-  word-wrap: break-word;
+.container {
+    width: 70vw !important;
+    /* margin-top: 10vh; */
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 20% 60% 20%;
+    justify-content: space-evenly;
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
+.container > div {
+    text-align: center;
 }
 
-.button {
-  border: none;
-  color: white;
-  border-radius: 50px;
-  padding: 28px 30px;
-  width: 22%;
-  margin: 10px 6px;
-  font-size: 30px;
-  background-color: rgba(128, 128, 128, 0.372);
+textarea{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
 }
 
-.zero-btn {
-  padding: 30px 190px 26px 20px;
+.last-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
 }
 
-.btn-orange {
-  background-color: orange;
+
+.three-columns {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    /* grid-template-columns: 50px auto 50px; */
 }
 
-.btn-grey {
-  background-color: grey;
+.nums {
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+
+}
+
+
+#playground {
+    border-style: solid;
+    
+}
+
+.remark {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.remark:hover {
+    opacity: 0.8;
+}
+
+.dial {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.dial:hover {
+    opacity: 0.7;
+}
+
+.upper{
+    margin-left: 1vh;
+    margin-right: 1hv;
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    /* line-height: 40px; */
+}
+
+.numsL {
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+    align-items: flex-end;
+   
+    
 }

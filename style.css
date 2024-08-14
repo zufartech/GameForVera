@@ -17,7 +17,8 @@ body {
     /* margin-top: 10vh; */
     display: grid;
     box-sizing: border-box;
-    grid-template-columns: 20% 60% 20%;
+    /* grid-template-columns: 20% 60% 20%; */
+    grid-template-columns: 50px auto 50px;
     justify-content: space-evenly;
 }
 
@@ -40,12 +41,13 @@ textarea{
     margin-top: 1vh;
 }
 
-
+/* 
 .three-columns {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    /* grid-template-columns: 50px auto 50px; */
-}
+    grid-template-columns: 50px auto 50px;
+    }
+ */
 
 .nums {
     display: flex;

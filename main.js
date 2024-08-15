@@ -1,5 +1,5 @@
 // let display = document.querySelector(".display");
-// alert('hello');
+// window.alert('hello');
 let buttons = Array.from(document.querySelectorAll(".button"));
 
 buttons.map((button) => {

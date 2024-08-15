@@ -112,10 +112,10 @@ textarea{
 .menu {
     background-color: #7e7d7d;
     width: 50px;
-    height: 40px;
+    height: 30px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
     border: none;
     color: #fff;
     /* font-size: 1.1rem;   */

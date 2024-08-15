@@ -11,10 +11,10 @@ html{
 }
 .container {
 
-    width: 95vw;
+    width: 96vw;
     /* margin-top: 10vh; */
     display: grid;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     /* grid-template-columns: 30% 40% 30%; */
     grid-template-columns: 50px auto 50px;
     justify-content: space-between;

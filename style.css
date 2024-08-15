@@ -58,8 +58,7 @@ textarea{
 
 #playground {
     border-style: solid;
-    /"border-color: #eeeeee;*/
-border: none;
+    border-color: rgb(23, 27, 28);
 
     
 }

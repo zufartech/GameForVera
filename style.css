@@ -124,3 +124,7 @@ textarea::-webkit-scrollbar{
     color: rgb(23, 27, 28);
     /* font-size: 1.1rem;   */
 }
+
+button:active {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .5);
+   }

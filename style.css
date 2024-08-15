@@ -33,6 +33,7 @@ textarea{
     size: 16;
     font-size: 1.1rem;
     resize: none;
+    overflow: hidden;
     border: none;
     color: #eeeeee;
     background-color: rgb(23, 27, 28);

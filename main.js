@@ -1,9 +1,10 @@
-let display = document.querySelector(".display");
-
+// let display = document.querySelector(".display");
+alert('hello');
 let buttons = Array.from(document.querySelectorAll(".button"));
 
 buttons.map((button) => {
   button.addEventListener("click", (e) => {
+    alert('hello');
     switch (e.target.innerText) {
       case "AC":
         display.innerText = "0";

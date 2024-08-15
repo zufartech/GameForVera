@@ -79,13 +79,13 @@ textarea::-webkit-scrollbar{
     font-size: 1.1rem;
 }
 
-.remark:hover {
+/* .remark:hover {
     opacity: 0.7;
 }
 
 .menu:hover {
     opacity: 0.7;
-}
+} */
 
 .dial {
     background-color: #3e3e3e;
@@ -100,9 +100,9 @@ textarea::-webkit-scrollbar{
     
 }
 
-.dial:hover {
+/* .dial:hover {
     opacity: 0.7;
-}
+} */
 
 .numsL {
     display: flex;

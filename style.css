@@ -12,6 +12,7 @@ html{
 .container {
 
     width: 96vw;
+    max-width: 350px;
     /* margin-top: 10vh; */
     display: grid;
     box-sizing: border-box;

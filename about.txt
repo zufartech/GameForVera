@@ -1,0 +1,10 @@
+Train your brain by Zufar and Raduan
+Your target is to reveal by logic prediction the five-digit hidden number  that the app generated.
+There are two hints Z and R, where Z= exact position of a digit in a row
+                                                                     R=wrong position of a digit in a row
+
+e.g.  app generated  12345
+                your trial      97205 – 1R 1Z 
+                                        42865 – 2Z
+                                        32145 – 2R3Z
+                                        12345 – 5Z&#13;&#10

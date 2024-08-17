@@ -11,3 +11,13 @@ dig.onclick = function() {
         document.getElementById('dig').textContent = '- 5 -';
     }
 }
+
+//******************************* abot ***********************************************************
+let abouText = 'Train your brain by Zufar and Raduan';
+about.onclick = function() {
+     // alert('hi')
+     document.getElementById('textbox').textContent = abouText;
+
+}
+
+// *****************************

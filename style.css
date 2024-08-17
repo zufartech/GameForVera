@@ -26,6 +26,16 @@ html{
     text-align: center;
 }
 
+#in {
+    margin-top: 1vh;
+}
+
+.output {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eeeeee;
+}
+
 textarea{
     margin-left: 5px;
     margin-right: 5px;

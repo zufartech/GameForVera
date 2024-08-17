@@ -13,10 +13,10 @@ dig.onclick = function() {
 }
 
 //******************************* abot ***********************************************************
-let abouText = 'Train your brain by Zufar and Raduan';
+let abouText = "Train your brain by Zufar and Raduan for dear Vera 🙏";
 about.onclick = function() {
-     // alert('hi')
-     document.getElementById('textbox').textContent = abouText;
+     alert(abouText)
+     // document.getElementById('textbox').textContent = abouText
 
 }
 

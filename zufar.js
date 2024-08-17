@@ -17,7 +17,6 @@ let abouText = "Train your brain by Zufar and Raduan for dear Vera 🙏";
 about.onclick = function() {
      alert(abouText)
      // document.getElementById('textbox').textContent = abouText
-
 }
 
 // *****************************

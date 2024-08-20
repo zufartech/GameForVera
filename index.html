@@ -48,17 +48,22 @@
     <!-- <script src="zufar.js"></script> -->
     <script>
         let gameStatus = false;
-        
+        let digits = 5;
+        let target=[];
+
 // ******************************* обработчик кнопки менъю "- 5 -" *******************************
 dig.onclick = function() {
    if (document.getElementById('dig').textContent === '- 5 -'){
         document.getElementById('dig').textContent = '- 6 -';
+        digits = 6;
    }
    else if (document.getElementById('dig').textContent === '- 6 -'){
         document.getElementById('dig').textContent ='- 4 -';
+        digits = 4;
    }
     else {
         document.getElementById('dig').textContent = '- 5 -';
+        digits = 5;
     }
 }
 
@@ -70,10 +75,10 @@ about.onclick = function() {
 }
 
 // ****************************** init ***********************************************************
-play.onclick = init;
-
 function init(){
-     gameStatus = false;
+    //  gameStatus = false;
+    // alert('hello init')
+    target.length = 0;
      document.getElementById('textbox').textContent = '>';
      for (let i = 0; i < 10; i++){
         buttonRemark[i].style.backgroundColor = 'rgb(80,80,80)';
@@ -120,7 +125,29 @@ function buttonRemarkHandler(e){
 // }
 
 
+//*************************************** play *************************************
+play.onclick = playStart;
+function playStart(){
+    // alert('hello play');
+    init();
+    gameStatus = true;
+    while (target.length != digits) {
+        let digit = `${Math.floor(Math.random() * 10)}`
+        if (target.includes(digit)) continue;
+        target.push(digit);
+    }
+
+}
+
 //*************************************** show *************************************
+
+show.onclick = shower; 
+function shower(){
+    gameStatus = false;
+    document.getElementById('textbox').textContent = target;
+}
+
+
 
     </script>
 </body>

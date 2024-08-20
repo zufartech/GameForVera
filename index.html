@@ -9,16 +9,16 @@
 <body>
     <div class="container">
         <div div class="numsL">
-            <button class="remark"  id="r0" >0</button>
-            <button class="remark"  id="r1" >1</button>
-            <button class="remark"  id="r2" >2</button>
-            <button class="remark"  id="r3" >3</button>
-            <button class="remark"  id="r4" >4</button>
-            <button class="remark"  id="r5" >5</button>
-            <button class="remark"  id="r6" >6</button>
-            <button class="remark"  id="r7" >7</button>
-            <button class="remark"  id="r8" >8</button>
-            <button class="remark"  id="r9" >9</button>
+            <button class="remark"  value='on' id="r0" >0</button>
+            <button class="remark"  value='on' id="r1" >1</button>
+            <button class="remark"  value='on' id="r2" >2</button>
+            <button class="remark"  value='on' id="r3" >3</button>
+            <button class="remark"  value='on' id="r4" >4</button>
+            <button class="remark"  value='on' id="r5" >5</button>
+            <button class="remark"  value='on' id="r6" >6</button>
+            <button class="remark"  value='on' id="r7" >7</button>
+            <button class="remark"  value='on' id="r8" >8</button>
+            <button class="remark"  value='on' id="r9" >9</button>
             <button class="menu"    id="play">play</button>
             <button class="menu"    id="show">show</button>
             <button class="menu"    id="dig" >- 5 -</button>
@@ -48,6 +48,7 @@
     <!-- <script src="zufar.js"></script> -->
     <script>
         let gameStatus = false;
+        
 // ******************************* обработчик кнопки менъю "- 5 -" *******************************
 dig.onclick = function() {
    if (document.getElementById('dig').textContent === '- 5 -'){
@@ -74,19 +75,52 @@ play.onclick = init;
 function init(){
      gameStatus = false;
      document.getElementById('textbox').textContent = '>';
+     for (let i = 0; i < 10; i++){
+        buttonRemark[i].style.backgroundColor = 'rgb(80,80,80)';
+        buttonRemark[i].value ='on';
+        buttonRemark[i].style.color = 'rgb(238, 238, 238)';
+     }
 }
 
-//******************************* get buttons ****************************************************
+//******************************* remarkButtons ****************************************************
 let buttonRemark = document.querySelectorAll("[class='remark']"); // get'remark' buttons to array
-alert(buttonRemark.length);
-alert(buttonRemark[0].textContent);
+buttonRemark.forEach(btn => {
+    btn.addEventListener('click', buttonRemarkHandler)
+})
+
+function buttonRemarkHandler(e){
+    // alert(e.target.value);
+    if(e.target.value =='on'){
+        e.target.style.backgroundColor = 'rgb(48,48,48)';
+        e.target.value = 'off';
+        e.target.style.color = 'rgb(96, 96, 96)';
+    }
+    else{
+        e.target.style.backgroundColor = 'rgb(80,80,80)';
+        e.target.value ='on';
+        e.target.style.color = 'rgb(238, 238, 238)';
+    }
+
+    // switch (e.target.textContent){
+    //     case '0':
+    //         alert('0');
+    //         break;
+    //     case '1':
+    //         alert('1');
+    //         break;
+    // }
+}
+
+// alert(buttonRemark.length);
+// alert(buttonRemark[0].textContent);
+
 // for (let i = 0; i < document.querySelectorAll("[class='remark']").length; i++) {
 
 //   alert(buttonRemarki[i]);
 // }
 
 
-
+//*************************************** show *************************************
 
     </script>
 </body>

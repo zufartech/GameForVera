@@ -37,7 +37,7 @@ textarea{
     resize: none;
     overflow: hidden;
     border: none;
-    color: #eeeeee;
+    color: #f0f0f0;
     background-color: rgb(23, 27, 28);
     
 }
@@ -70,14 +70,14 @@ textarea::-webkit-scrollbar{
 }
 
 .remark {
-    background-color: #3e3e3e;
+    background-color: rgb(80,80,80);
     width: 50px;
     height: 38px;
     border-radius: 30px;
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: #eeeeee;
+    color: rgb(238, 238, 238);
     font-size: 1.1rem;
 }
 
@@ -90,14 +90,14 @@ textarea::-webkit-scrollbar{
 } */
 
 .dial {
-    background-color: #3e3e3e;
+    background-color: rgb(80,80,80);
     width: 50px;
     height: 38px;
     border-radius: 30px;
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: #eeeeee;
+    color: rgb(238, 238, 238);
     font-size: 1.1rem; 
     
 }
@@ -116,7 +116,7 @@ textarea::-webkit-scrollbar{
 }
 
 .menu {
-    background-color: #7e7d7d;
+    background-color: #898989;
     width: 50px;
     height: 38px;
     font-weight: 600;

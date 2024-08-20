@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <div div class="numsL">
+            <button class="remark"  id="r0" >0</button>
             <button class="remark"  id="r1" >1</button>
             <button class="remark"  id="r2" >2</button>
             <button class="remark"  id="r3" >3</button>
@@ -18,7 +19,6 @@
             <button class="remark"  id="r7" >7</button>
             <button class="remark"  id="r8" >8</button>
             <button class="remark"  id="r9" >9</button>
-            <button class="remark"  id="r0" >0</button>
             <button class="menu"    id="play">play</button>
             <button class="menu"    id="show">show</button>
             <button class="menu"    id="dig" >- 5 -</button>
@@ -27,6 +27,7 @@
              <textarea id="textbox" cols=20 rows=28 disabled >-- 023456- 1✧ : 6◇&#13;&#10;-- 12345 - 1✧ : 1◇&#13;&#10;-- 1234  - 1✦ : 1◇&#13;&#10;===================&#13;&#10; 1 12345 - 1✦ : 1◇&#13;&#10; 2 12345 - 7✦ : 9◇&#13;&#10; 3 12345 - 0✦ : 7◇&#13;&#10; 4 12345 - 6✦ : 1◇&#13;&#10; 5 12345 - 1✦ : 1◇&#13;&#10; 6 12345 - 1✦ : 1◇&#13;&#10; 7 12345 - 1✦ : 3◇&#13;&#10; 8 12345 - 4✦ : 2◇&#13;&#10; 9 12345 - 1✦ : 1◇&#13;&#10;10 12345 - 1✦ : 1◇&#13;&#10;11 12345 - 1✦ : 1◇&#13;&#10;12 12345 - 1✦ : 1◇&#13;&#10;13 12345 - 1✦ : 1◇&#13;&#10;14 12345 - 1✦ : 1◇&#13;&#10;15 12345 - 1✦ : 1◇</textarea>
         </div>
         <div class="nums">
+            <button class="dial"    id="d0"   >0</button>
             <button class="dial"    id="d1"   >1</button>
             <button class="dial"    id="d2"   >2</button>
             <button class="dial"    id="d3"   >3</button>
@@ -36,7 +37,6 @@
             <button class="dial"    id="d7"   >7</button>
             <button class="dial"    id="d8"   >8</button>
             <button class="dial"    id="d9"   >9</button>
-            <button class="dial"    id="d0"   >0</button>
             <button class="menu"    id="enter">enter</button>
             <button class="menu"    id="cancel">cancel</button>
             <button class="menu"    id="about">about</button>
@@ -45,6 +45,49 @@
     </div>
     <!-- <script async src="rocks-diamonds.js" type="module"> </script>
     <script src="defense-alg.js" type="module"></script> -->
-    <script src="zufar.js"></script>
+    <!-- <script src="zufar.js"></script> -->
+    <script>
+        let gameStatus = false;
+// ******************************* обработчик кнопки менъю "- 5 -" *******************************
+dig.onclick = function() {
+   if (document.getElementById('dig').textContent === '- 5 -'){
+        document.getElementById('dig').textContent = '- 6 -';
+   }
+   else if (document.getElementById('dig').textContent === '- 6 -'){
+        document.getElementById('dig').textContent ='- 4 -';
+   }
+    else {
+        document.getElementById('dig').textContent = '- 5 -';
+    }
+}
+
+//******************************* abot ***********************************************************
+let abouText = "Train your brain by Zufar and Raduan for dear Vera 🙏";
+about.onclick = function() {
+     alert(abouText)
+     // document.getElementById('textbox').textContent = abouText
+}
+
+// ****************************** init ***********************************************************
+play.onclick = init;
+
+function init(){
+     gameStatus = false;
+     document.getElementById('textbox').textContent = '>';
+}
+
+//******************************* get buttons ****************************************************
+let buttonRemark = document.querySelectorAll("[class='remark']"); // get'remark' buttons to array
+alert(buttonRemark.length);
+alert(buttonRemark[0].textContent);
+// for (let i = 0; i < document.querySelectorAll("[class='remark']").length; i++) {
+
+//   alert(buttonRemarki[i]);
+// }
+
+
+
+
+    </script>
 </body>
 </html>

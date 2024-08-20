@@ -1,4 +1,4 @@
-
+let gameStatus = false;
 // ******************************* обработчик кнопки менъю "- 5 -" ******************************** 
 dig.onclick = function() {
    if (document.getElementById('dig').textContent === '- 5 -'){
@@ -19,4 +19,11 @@ about.onclick = function() {
      // document.getElementById('textbox').textContent = abouText
 }
 
-// *****************************8
+// ***************************** init ***********************************************************
+function init(){
+     gameStatus = false;
+     document.getElementById('playground').textContent = null;
+}
+
+play.onclick = init();
+

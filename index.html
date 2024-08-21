@@ -147,7 +147,7 @@ function playStart(){
         if (target.includes(digit)) continue;
         target.push(digit);
     }
-    target = ['1', '2', '3', '4', '5'];
+    // target = ['1', '2', '3', '4', '5'];
 
 }
 
@@ -262,16 +262,16 @@ function enter(){
         if(column > 17){
             gameStatus = false;
             if(a == digits){
-                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + target;
+                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + '-- ' + target + ' --';
             }
             else{
-                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '----end the game----' + '\n' + target;
+                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '----end the game----' + '\n' + '-- ' + target + ' --';
             }
         }
         else if(column == 1){
             if(a == digits){
                 gameStatus = false;
-                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + target;
+                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + '-- ' + target + ' --';
             }
             else {
                 document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '====================' + '\n' + lineNumber + ' ';

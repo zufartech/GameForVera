@@ -157,7 +157,7 @@ show.onclick = shower;
 function shower(){
     if(gameStatus){
     gameStatus = false;
-    document.getElementById('textbox').textContent = target;
+    document.getElementById('textbox').textContent += '\n' + '-- ' + target + ' --';
     }
 }
 

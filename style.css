@@ -4,11 +4,9 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
-    background-color: rgb(23, 27, 28);
+    /* background-color: rgb(23, 27, 28); */
 }
-html{
-    background-color: rgb(23, 27, 28);
-}
+
 .container {
 
     width: 95vw;
@@ -33,26 +31,19 @@ textarea{
     margin-bottom: 10px;
     size: 16;
     font-size: 1.1rem;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     resize: none;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    border: none;
-    color: #f0f0f0;
-    background-color: rgb(23, 27, 28);
+    /* border: none; */
+    /* color: rgb(240, 240, 240); */
+    /* background-color: rgb(23, 27, 28); */
     
 }
 textarea::-webkit-scrollbar{
     display: none;
 }
-
-
-/* 
-.three-columns {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-columns: 50px auto 50px;
-    }
- */
 
 .nums {
     display: flex;
@@ -62,49 +53,39 @@ textarea::-webkit-scrollbar{
 }
 
 
-#playground {
+.playground {
     border-style: solid;
-    border-color: rgb(23, 27, 28);
+    /* border-color: rgb(23, 27, 28); */
 
     
 }
 
 .remark {
-    background-color: rgb(80,80,80);
+    /* background-color: rgb(80,80,80); */
     width: 50px;
     height: 38px;
     border-radius: 30px;
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: rgb(238, 238, 238);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    /* color: rgb(238, 238, 238); */
     font-size: 1.1rem;
 }
 
-/* .remark:hover {
-    opacity: 0.7;
-}
-
-.menu:hover {
-    opacity: 0.7;
-} */
-
 .dial {
-    background-color: rgb(80,80,80);
+    /* background-color: rgb(80,80,80); */
     width: 50px;
     height: 38px;
     border-radius: 30px;
     text-align: center;
     margin-bottom: 8px;
     border: none;
-    color: rgb(238, 238, 238);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    /* color: rgb(238, 238, 238); */
     font-size: 1.1rem; 
     
 }
-
-/* .dial:hover {
-    opacity: 0.7;
-} */
 
 .numsL {
     display: flex;
@@ -116,7 +97,7 @@ textarea::-webkit-scrollbar{
 }
 
 .menu {
-    background-color: #898989;
+    /* background-color: rgb(137, 137, 137); */
     width: 50px;
     height: 38px;
     font-weight: 600;
@@ -124,7 +105,8 @@ textarea::-webkit-scrollbar{
     text-align: center;
     margin-top: 16px;
     border: none;
-    color: rgb(23, 27, 28);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    /* color: rgb(23, 27, 28); */
     /* font-size: 1.1rem;   */
 }
 

@@ -4,6 +4,12 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
+    background: rgba(255, 234, 13, 0.5);
+    background-image: url("./fon1.jpg");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
     /* background-color: rgb(23, 27, 28); */
 }
@@ -39,10 +45,10 @@ textarea{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     resize: none;
-    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     /* border: none; */
-    /* color: rgb(240, 240, 240); */
+    color: rgb(20, 20, 20);
     /* background-color: rgb(23, 27, 28); */
     
 }
@@ -120,4 +126,5 @@ textarea::-webkit-scrollbar{
 
 button:active {
     box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    box-shadow: none;
    }

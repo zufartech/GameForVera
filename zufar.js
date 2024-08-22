@@ -8,7 +8,7 @@ let  digitButtonOn            = 'rgb(35, 107, 70)',
      digitButtonOff           = 'rgb(184, 137, 50)',
      Background               = 'rgb(191, 191, 191)',
      menuButtonBackground     = 'rgb(54, 134, 156)',
-     textAreaBackground       = 'rgb(210, 210, 210)',
+     textAreaBackground       = 'rgb(230, 230, 230, 0.7)',
      TextAreaTextColor        = 'rgb(26, 26, 26)';
 
 
@@ -21,7 +21,7 @@ document.querySelector('body').style.backgroundColor        = Background ;      
 
 document.querySelector('textarea').style.backgroundColor    = textAreaBackground;    // textarea background color
 document.querySelector('textarea').style.borderColor        = Background             // textarea background color
-document.querySelector('textarea').style.color              = TextAreaTextColor;     // text color
+// document.querySelector('textarea').color              = TextAreaTextColor;     // text color
 
 document.getElementById('play').style.backgroundColor       = menuButtonBackground;   // button 'play' background color
 document.getElementById('show').style.backgroundColor       = menuButtonBackground;   // button 'show background color

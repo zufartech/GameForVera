@@ -49,11 +49,12 @@ textarea{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     resize: none;
+    background-color: rgba(241, 241, 241, 0.702);
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    /* border: none; */
-    color: rgb(20, 20, 20);
-    /* background-color: rgb(23, 27, 28); */
+    border: none;
+    color: black;
+    
     
 }
 textarea::-webkit-scrollbar{

@@ -24,7 +24,7 @@
             <button class="menu"                id="dig" >- 5 -</button>
         </div>
         <div id="playground">
-             <textarea id="textbox" cols=22 rows=28 disabled >  Train your brain</textarea>
+             <textarea id="textbox" cols=20 rows=28 disabled >  Train your brain</textarea>
         </div>
         <div class="nums">
             <button class="dial"    value='on'  id="d0"   >0</button>
@@ -157,7 +157,7 @@ show.onclick = shower;
 function shower(){
     if(gameStatus){
     gameStatus = false;
-    document.getElementById('textbox').textContent += '\n' + '-- ' + target + ' --';
+    document.getElementById('textbox').textContent += '\n' + '--- ' + target + ' ---';
     }
 }
 
@@ -265,7 +265,7 @@ function enter(){
                 document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + '-- ' + target + ' --';
             }
             else{
-                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '----end the game----' + '\n' + '-- ' + target + ' --';
+                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '----end the game---' + '\n' + '-- ' + target + ' --';
             }
         }
         else if(column == 1){
@@ -274,7 +274,7 @@ function enter(){
                 document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '------you win!-----' + '\n' + '-- ' + target + ' --';
             }
             else {
-                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '====================' + '\n' + lineNumber + ' ';
+                document.getElementById('textbox').textContent += prob + a + '✦ : ' + k + '◇' + '\n' + '===================' + '\n' + lineNumber + ' ';
             }
         }
         else{

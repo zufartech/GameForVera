@@ -11,7 +11,7 @@ html{
 }
 .container {
 
-    width: 96vw;
+    width: 95vw;
     max-width: 350px;
     /* margin-top: 10vh; */
     display: grid;
@@ -28,7 +28,7 @@ html{
 
 textarea{
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
     size: 16;

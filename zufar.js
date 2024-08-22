@@ -17,9 +17,9 @@ let  digitButtonOn            = 'rgb(35, 107, 70)',
 function init(){
 
 document.querySelector('body').style.backgroundColor        = Background ;           // HTML background color
-document.getElementById('playground').style.borderColor     = Background ;           // center background color
+// document.getElementById('playground').style.borderColor     = Background ;           // center background color
 
-document.querySelector('textarea').style.backgroundColor    = textAreaBackground;           // textarea background color
+document.querySelector('textarea').style.backgroundColor    = textAreaBackground;    // textarea background color
 document.querySelector('textarea').style.borderColor        = Background             // textarea background color
 document.querySelector('textarea').style.color              = TextAreaTextColor;     // text color
 

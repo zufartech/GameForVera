@@ -4,6 +4,7 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
+
     /* background-color: rgb(23, 27, 28); */
 }
 
@@ -18,6 +19,10 @@ body {
     grid-template-columns: 50px auto 50px;
     justify-content: space-between;
     border: none;
+    /* background-image: url("./fon1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 
 .container > div {
@@ -53,12 +58,15 @@ textarea::-webkit-scrollbar{
 }
 
 
-.playground {
-    border-style: solid;
-    /* border-color: rgb(23, 27, 28); */
+/* .playground { */
+    /* border-style: solid; */
+    /* background-image: url("./fon.jpg");
+    background-color: 'red'; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* border-color: rgb(23, 27, 28); */    
+/* } */
 
-    
-}
 
 .remark {
     /* background-color: rgb(80,80,80); */

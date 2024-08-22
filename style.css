@@ -40,6 +40,12 @@ html{
 }
 
 textarea{
+    -webkit-text-fill-color: black;
+    opacity: 0.9;
+    /* color: rgba(0,0,0, 1); */
+    background-color: rgba(241, 241, 241, 0.702);
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
     margin-left: 5px;
     margin-right: 1px;
     margin-top: 10px;
@@ -49,11 +55,9 @@ textarea{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     resize: none;
-    background-color: rgba(241, 241, 241, 0.702);
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border: none;
-    color: black;
+    
     
     
 }

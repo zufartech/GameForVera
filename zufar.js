@@ -211,28 +211,28 @@ if(column > 0){
 if(column > 17){
     gameStatus = false;
     if(a == digits){
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
     }
     else{
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + '----end the game---' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + '----end the game---' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
     }
 }
 else if(column == 1){
     if(a == digits){
         gameStatus = false;
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
     }
     else {
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + '===================' + '\n' + lineNumber + ' ';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + '===================' + '\n' + lineNumber + ' ';
     }
 }
 else{
     if(a == digits){
         gameStatus = false;
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + '------you win!-----' + '\n' + '-- ' + target.reduce((res, item) => res + item, '') + ' --';
     }
     else {
-        document.getElementById('textbox').textContent += prob + a + '◇ : ' + k + '◆' + '\n' + lineNumber + ' ';
+        document.getElementById('textbox').textContent += prob + a + '◆ : ' + k + '◼' + '\n' + lineNumber + ' ';
     }       
 }
 }

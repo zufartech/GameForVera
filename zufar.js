@@ -249,5 +249,6 @@ symbol --;
 }
 }
 
+
 init();
 document.getElementById('textbox').textContent = '  Train your brain';

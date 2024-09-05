@@ -9,8 +9,8 @@ let symbol = 0;
     //  digitButtonOff           = 'rgb(184, 137, 50)',
      digitButtonOff           = 'rgba(209, 171, 96, 0.5)',
      Background               = 'rgb(191, 191, 191)',
-    //  menuButtonBackground     = 'rgb(54, 134, 156)',
-    menuButtonBackground     = 'rgb(232, 121, 77)',
+     menuButtonBackground     = 'rgb(54, 134, 156)',
+    // menuButtonBackground     = 'rgb(232, 121, 77)',
      textAreaBackground       = 'rgb(230, 230, 230, 0.7)',
      TextAreaTextColor        = 'rgb(26, 26, 26)';
 
